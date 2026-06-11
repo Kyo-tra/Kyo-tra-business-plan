@@ -8,8 +8,10 @@
 }
 
 .hero-logo {
-  width: 120px;
-  margin-bottom: 20px;
+  width: 120px;      /* ← 画像の横幅を120pxに固定 */
+  height: auto;      /* ← 縦横比を保つ */
+  display: block;    /* ← 中央揃えのため */
+  margin: 0 auto 20px;
 }
 
 .hero-title {
