@@ -8,11 +8,14 @@
 }
 
 .hero-logo {
-  width: 60px !important;
-  height: auto !important;
-  max-width: 100%;
+  width: 100px;
+  height: auto;
   display: block;
-  margin: 0 auto 20px;
+  margin: 0 auto 10px;
+}
+.hero-title {
+  font-size: 3rem;
+  margin-top: 0;
 }
 
 .hero-title {
@@ -25,4 +28,9 @@
   font-size: 1.2em;
   color: #555;
   line-height: 1.6;
+}
+body {
+  font-family: "Noto Serif JP", serif;
+  color: #2c3e50;
+  background-color: #fdf6f0;
 }
